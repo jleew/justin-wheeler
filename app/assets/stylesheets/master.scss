@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
 @import "bootstrap";
 
 .clear {
@@ -53,3 +55,10 @@ hr {
   clear:both;
 }
 
+h1 {
+  font-family: 'Crimson Text', serif;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+}
