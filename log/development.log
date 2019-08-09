@@ -716,3 +716,275 @@ Processing by QuotesController#index as HTML
 Completed 200 OK in 2575ms (Views: 2562.6ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:00:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4028ms (Views: 3998.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:00:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 183ms (Views: 170.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:00:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 144.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:00:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 157ms (Views: 144.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:00:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 161ms (Views: 147.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:02:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 158ms (Views: 145.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:12:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2613ms (Views: 2599.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:12:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 180ms (Views: 166.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:12:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 176ms (Views: 162.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:19:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2536ms (Views: 2523.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:20:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 179ms (Views: 165.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:20:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 187ms (Views: 173.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:20:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 155ms (Views: 142.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:24:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2519ms (Views: 2505.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:24:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 156ms (Views: 142.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:24:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 147ms (Views: 133.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:24:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 152ms (Views: 139.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:24:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 166ms (Views: 153.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:24:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 154ms (Views: 140.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:29:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 163ms (Views: 150.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:29:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 156ms (Views: 143.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:39:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.7ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2505ms (Views: 2492.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:44:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 168ms (Views: 155.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:46:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2464ms (Views: 2450.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:47:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2559ms (Views: 2545.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:49:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 150ms (Views: 136.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-09 00:50:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  ↳ app/controllers/quotes_controller.rb:5
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2524ms (Views: 2511.3ms | ActiveRecord: 0.3ms)
+
+
