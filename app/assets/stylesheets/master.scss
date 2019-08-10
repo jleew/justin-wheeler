@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
 
 @import "bootstrap";
 
@@ -45,6 +45,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #DE2B1F;
+  font-family: 'kaushan_scriptregular', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -56,9 +58,11 @@ hr {
 }
 
 h1 {
-  font-family: 'Crimson Text', serif;
+  font-family: 'kaushan_scriptregular', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
 }
 
 h2 {
-  font-family: 'Crimson Text', serif;
+  font-family: 'kaushan_scriptregular', serif;
 }
