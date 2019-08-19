@@ -2,7 +2,7 @@ class QuotesController < ApplicationController
 
   def index
 
-    #@quote = Quote.all.sample
+    #@quote = Quote.first
     @quote = Quote.order("RANDOM()").first 
   end
 
@@ -22,6 +22,8 @@ class QuotesController < ApplicationController
     redirect_to root_path
   end
 
+  def about
+  end
 
   private
 
