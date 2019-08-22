@@ -43,13 +43,11 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true">×</span>
         </button>
-      
         <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
-
       </div>
       
     <%= simple_form_for Quote.new do |f| %>
@@ -57,13 +55,12 @@
         <%= f.input :saying, label: "What saying would like to add?", placeholder: "Darkness cannont drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."%>
         <br />
         <%= f.input :author, label: "who is the author of the quote?", placeholder: "Martin Luther King Jr." %>
-
-      </div> 
+      </div>
+       
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      
-        <%= f.submit 'Create', class: 'btn btn-danger' %>
+        
+      <%= f.submit 'Create', class: 'btn btn-danger' %>
       </div>
       <% end %>
       </div>
