@@ -1,4 +1,4 @@
-class QuotesController < ApplicationController
+teclass QuotesController < ApplicationController
 
   def index
 
