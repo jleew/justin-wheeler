@@ -9819,3 +9819,280 @@ DEPRECATION WARNING: Dangerous query method (method whose arguments are used as 
 Completed 200 OK in 260ms (Views: 234.8ms | ActiveRecord: 1.3ms)
 
 
+Started GET "/" for 10.0.2.2 at 2019-08-26 23:58:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 984ms (Views: 956.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-26 23:58:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 201ms (Views: 190.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:10:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 227ms (Views: 213.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:11:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 198ms (Views: 185.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:11:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 194ms (Views: 176.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:12:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 224ms (Views: 205.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:12:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 194ms (Views: 175.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:13:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 195ms (Views: 175.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:14:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 208ms (Views: 185.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 187ms (Views: 171.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 198ms (Views: 181.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 174ms (Views: 159.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 195ms (Views: 161.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 161ms (Views: 144.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 166ms (Views: 150.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 164ms (Views: 146.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 165ms (Views: 149.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 167ms (Views: 150.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:15:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 169ms (Views: 151.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:16:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 177ms (Views: 160.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:16:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 169ms (Views: 153.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:16:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 171ms (Views: 151.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:17:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 160ms (Views: 144.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:17:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 174ms (Views: 157.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-08-27 00:17:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): "RANDOM()". Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from index at /vagrant/src/splurty/app/controllers/quotes_controller.rb:6)
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/quotes_controller.rb:6
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 172ms (Views: 155.4ms | ActiveRecord: 0.4ms)
+
+
